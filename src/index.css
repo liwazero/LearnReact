@@ -49,3 +49,73 @@ body {
     margin-left: 20px;
   }
   
+  .game-restart{
+    color:red;
+  }
+
+  .Comment{
+    font-size:20;
+    color:#000;
+    width:400px;
+    height:100px;
+    position:relative;
+  }
+
+  .UserInfo{
+    float:left;
+    width:50px;
+    height:80px;
+    position:relative;
+  }
+
+  .UserInfo img{
+    width:36px;
+    height:36px;
+    border-radius:100%;
+    position:absolute;
+    left:50%;
+    top:0;
+    transform: translateX(-50%);
+  }
+
+  .UserInfo-name{
+    height:40px;
+    font-weight:bold;
+    text-align: center;
+    position:absolute;
+    left:0px;
+    bottom:0px;
+  }
+  
+  .Comment-text{
+    float:left;
+    width:350px;
+    line-height:28px;
+    box-sizing: border-box;
+    padding-left:10px;
+    padding-right:10px;
+  }
+  .Comment-date{
+    position:absolute;
+    right:0;
+    bottom:0;
+    color:#999;
+  }
+  .warning{
+    font-size:30px;
+    color:red;
+    font-weight:bold;
+  }
+  .FancyBorder-blue{
+    color:blue;
+  }
+  .ProductHeader{
+    width:300px;
+    display:flex;
+  }
+  .HeaderOne{
+    width:150px;
+  }
+  .HeaderTwo{
+    width:150px;
+  }
